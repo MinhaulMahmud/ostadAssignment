@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #231E39;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #B3B8CD;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.09);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+  margin-bottom: 10px;
+  border: 1px solid #03BFCB;
+  padding: 7px;
+}
+
+.card .description {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+h2 {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.skills {
+  background-color: #1F1A36;
+  text-align: left;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+  margin-right: 10px;
+  color: #B3B8CD;
+}
+
+p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #B3B8CD;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #03BFCB;
+}
+
+.contact h4 {
+  text-align: left;
+  margin-top: 20px;
+  padding: 15px;
+}
